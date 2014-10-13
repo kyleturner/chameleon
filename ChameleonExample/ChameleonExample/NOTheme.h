@@ -7,7 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
 
 @interface NOTheme : NSObject
+
++ (void)applyTheme;
+
++ (NSDictionary *)navigationBarTitleTextAttributes;
+
++ (UIFont *)fontOfSize:(CGFloat)size;
++ (UIFont *)blackFontOfSize:(CGFloat)size;
++ (UIFont *)boldFontOfSize:(CGFloat)size;
+
++ (UIFont *)buttonFont;
++ (UIFont *)customButtonFont;
 
 @end

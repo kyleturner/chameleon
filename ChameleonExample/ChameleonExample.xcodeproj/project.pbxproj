@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16F4AD18B19546D6AAD21781 /* libPods-ChameleonExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F7544FE5D440F1B0FA5ABC /* libPods-ChameleonExample.a */; };
 		34850B7C19EB335700A404C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34850B7B19EB335700A404C4 /* main.m */; };
 		34850B7F19EB335700A404C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34850B7E19EB335700A404C4 /* AppDelegate.m */; };
 		34850B8219EB335700A404C4 /* ChameleonExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34850B8019EB335700A404C4 /* ChameleonExample.xcdatamodeld */; };
@@ -21,6 +22,9 @@
 		34850BAE19EB33E200A404C4 /* NOLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34850BAD19EB33E200A404C4 /* NOLabel.m */; };
 		34850BB119EB340100A404C4 /* NOButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 34850BB019EB340100A404C4 /* NOButton.m */; };
 		34850BB419EB344600A404C4 /* NOError.m in Sources */ = {isa = PBXBuildFile; fileRef = 34850BB319EB344600A404C4 /* NOError.m */; };
+		34850BB719EB372B00A404C4 /* FrameUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 34850BB619EB372B00A404C4 /* FrameUtils.m */; };
+		34850BBC19EB374F00A404C4 /* UIColor+NOUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 34850BB919EB374F00A404C4 /* UIColor+NOUtils.m */; };
+		34850BBD19EB374F00A404C4 /* UIImage+NOUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 34850BBB19EB374F00A404C4 /* UIImage+NOUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,15 @@
 		34850BB019EB340100A404C4 /* NOButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOButton.m; sourceTree = "<group>"; };
 		34850BB219EB344600A404C4 /* NOError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOError.h; sourceTree = "<group>"; };
 		34850BB319EB344600A404C4 /* NOError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOError.m; sourceTree = "<group>"; };
+		34850BB519EB372B00A404C4 /* FrameUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameUtils.h; sourceTree = "<group>"; };
+		34850BB619EB372B00A404C4 /* FrameUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameUtils.m; sourceTree = "<group>"; };
+		34850BB819EB374F00A404C4 /* UIColor+NOUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NOUtils.h"; sourceTree = "<group>"; };
+		34850BB919EB374F00A404C4 /* UIColor+NOUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NOUtils.m"; sourceTree = "<group>"; };
+		34850BBA19EB374F00A404C4 /* UIImage+NOUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NOUtils.h"; sourceTree = "<group>"; };
+		34850BBB19EB374F00A404C4 /* UIImage+NOUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NOUtils.m"; sourceTree = "<group>"; };
+		34850BBE19EB3B7700A404C4 /* ChameleonExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChameleonExample-Prefix.pch"; sourceTree = "<group>"; };
+		45DE3D558A844EE0925072CB /* Pods-ChameleonExample.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChameleonExample.xcconfig"; path = "Pods/Pods-ChameleonExample.xcconfig"; sourceTree = "<group>"; };
+		C2F7544FE5D440F1B0FA5ABC /* libPods-ChameleonExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChameleonExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F4AD18B19546D6AAD21781 /* libPods-ChameleonExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +100,8 @@
 				34850B7819EB335700A404C4 /* ChameleonExample */,
 				34850B9819EB335700A404C4 /* ChameleonExampleTests */,
 				34850B7719EB335700A404C4 /* Products */,
+				45DE3D558A844EE0925072CB /* Pods-ChameleonExample.xcconfig */,
+				72B1762EC54047CBB46CEDF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +138,7 @@
 			children = (
 				34850B7A19EB335700A404C4 /* Info.plist */,
 				34850B7B19EB335700A404C4 /* main.m */,
+				34850BBE19EB3B7700A404C4 /* ChameleonExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -156,8 +173,22 @@
 				34850BB019EB340100A404C4 /* NOButton.m */,
 				34850BB219EB344600A404C4 /* NOError.h */,
 				34850BB319EB344600A404C4 /* NOError.m */,
+				34850BB519EB372B00A404C4 /* FrameUtils.h */,
+				34850BB619EB372B00A404C4 /* FrameUtils.m */,
+				34850BB819EB374F00A404C4 /* UIColor+NOUtils.h */,
+				34850BB919EB374F00A404C4 /* UIColor+NOUtils.m */,
+				34850BBA19EB374F00A404C4 /* UIImage+NOUtils.h */,
+				34850BBB19EB374F00A404C4 /* UIImage+NOUtils.m */,
 			);
 			name = "NightOwl Core";
+			sourceTree = "<group>";
+		};
+		72B1762EC54047CBB46CEDF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2F7544FE5D440F1B0FA5ABC /* libPods-ChameleonExample.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34850B9F19EB335700A404C4 /* Build configuration list for PBXNativeTarget "ChameleonExample" */;
 			buildPhases = (
+				481F474F1616467CBE55A1A3 /* Check Pods Manifest.lock */,
 				34850B7219EB335700A404C4 /* Sources */,
 				34850B7319EB335700A404C4 /* Frameworks */,
 				34850B7419EB335700A404C4 /* Resources */,
+				745E34E1AA734B58A7078459 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,16 +288,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		481F474F1616467CBE55A1A3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		745E34E1AA734B58A7078459 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ChameleonExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		34850B7219EB335700A404C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				34850B8819EB335700A404C4 /* DetailViewController.m in Sources */,
+				34850BB719EB372B00A404C4 /* FrameUtils.m in Sources */,
+				34850BBD19EB374F00A404C4 /* UIImage+NOUtils.m in Sources */,
 				34850BAE19EB33E200A404C4 /* NOLabel.m in Sources */,
 				34850B8519EB335700A404C4 /* MasterViewController.m in Sources */,
 				34850BB419EB344600A404C4 /* NOError.m in Sources */,
 				34850BAB19EB33CF00A404C4 /* NOTheme.m in Sources */,
+				34850BBC19EB374F00A404C4 /* UIColor+NOUtils.m in Sources */,
 				34850B7F19EB335700A404C4 /* AppDelegate.m in Sources */,
 				34850B7C19EB335700A404C4 /* main.m in Sources */,
 				34850BA819EB33B600A404C4 /* NONavigationController.m in Sources */,
@@ -391,8 +460,11 @@
 		};
 		34850BA019EB335700A404C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45DE3D558A844EE0925072CB /* Pods-ChameleonExample.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChameleonExample/ChameleonExample-Prefix.pch";
 				INFOPLIST_FILE = ChameleonExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -401,8 +473,11 @@
 		};
 		34850BA119EB335700A404C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45DE3D558A844EE0925072CB /* Pods-ChameleonExample.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChameleonExample/ChameleonExample-Prefix.pch";
 				INFOPLIST_FILE = ChameleonExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -462,6 +537,7 @@
 				34850BA119EB335700A404C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34850BA219EB335700A404C4 /* Build configuration list for PBXNativeTarget "ChameleonExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +546,7 @@
 				34850BA419EB335700A404C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

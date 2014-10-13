@@ -1,0 +1,45 @@
+//
+//  ChameleonExample-Prefix.pch
+//  ChameleonExample
+//
+//  Created by Kyle Turner on 10/12/14.
+//  Copyright (c) 2014 NightOwl. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import "UIImage+NOUtils.h"
+#import "UIColor+NOUtils.h"
+#import "NOTheme.h"
+#import "FrameUtils.h"
+#endif
+
+// Block typdefs
+typedef void (^NoArgumentBlock)();
+typedef void (^SingleArgumentBlock)(id obj);
+typedef void (^DoubleArgumentBlock)(id obj1, id obj2);
+
+#define ShowNetworkActivityIndicator() [UIApplication sharedApplication].networkActivityIndicatorVisible = YES
+#define HideNetworkActivityIndicator() [UIApplication sharedApplication].networkActivityIndicatorVisible = NO
+
+#define SuppressPerformSelectorLeakWarning(block) \
+do { \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+block; \
+_Pragma("clang diagnostic pop") \
+} while (0)
+
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define DLog(...)
+#endif
